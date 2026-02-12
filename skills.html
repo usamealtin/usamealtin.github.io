@@ -1,87 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skills - Usame Altinisik</title>
+    <title>Works - Usame Altinisik</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 
-<body>
+<body class="has-footer">
     <div id="navbar-root"></div>
 
     <main class="page-grid">
-        <section id="skills" class="section glass-panel">
+        <section class="section glass-panel">
             <header class="section-header">
-                <h2>Skills & Experience</h2>
-                <p>Technical proficiency and professional journey</p>
+                <h2>Works</h2>
+                <p>Tasarımlar, kodlar ve oyunlar</p>
             </header>
-
-            <div class="skills-flex">
-                <div class="skills-grid">
-                    <article class="skill-card">
-                        <h3>HTML5 & Semantic Web</h3>
-                        <div class="skill-bar">
-                            <div class="skill-level level-90"></div>
-                        </div>
-                        <p>Strong structure and accessible markup practices.</p>
-                    </article>
-
-                    <article class="skill-card">
-                        <h3>CSS3 & Design</h3>
-                        <div class="skill-bar">
-                            <div class="skill-level level-85"></div>
-                        </div>
-                        <p>Modern layouts (Flexbox/Grid) and visual effects.</p>
-                    </article>
-
-                    <article class="skill-card">
-                        <h3>React.js</h3>
-                        <div class="skill-bar">
-                            <div class="skill-level level-80"></div>
-                        </div>
-                        <p>Building component-based interactive UIs.</p>
-                    </article>
-
-                    <article class="skill-card">
-                        <h3>Document Management</h3>
-                        <div class="skill-bar">
-                            <div class="skill-level level-95"></div>
-                        </div>
-                        <p>Advanced PDF editing and print optimization.</p>
-                    </article>
-                </div>
-
-                <aside class="skills-aside">
-                    <h3>Professional Journey</h3>
-                    <div class="experience-text">
-                        <p>
-                            Since the beginning of my university life, I have actively gained experience in various
-                            fields.
-                            My journey began as a sales associate at a stationery store. There, I mastered technical
-                            details
-                            like <strong>printer optimization</strong> and <strong>editing PDFs</strong>.
-                        </p>
-                        <p>
-                            After the first year, I transitioned to a team-based environment where I worked for
-                            <strong>1.5 years</strong>, developing skills in <strong>team leadership</strong>.
-                        </p>
-                        <p>
-                            Currently, I am working at an <strong>education company</strong>, responsible for
-                            <strong>content quality</strong> and maintaining standards.
-                        </p>
+            <div class="works-grid">
+                <article class="work-card">
+                    <img src="ss.png" alt="Önizleme" class="work-preview">
+                    <div class="work-info">
+                        <h3>Portfolio Sitesi</h3>
+                        <p>Cam efektli, responsive portfolio.</p>
                     </div>
-                </aside>
+                </article>
+                <article class="work-card">
+                    <img src="bilim.jpg" alt="Önizleme" class="work-preview">
+                    <div class="work-info">
+                        <h3>Eğitim Landing</h3>
+                        <p>Eğitim şirketi için landing sayfası tasarımı.</p>
+                    </div>
+                </article>
+                <article class="work-card">
+                    <div class="work-preview" style="display: flex; align-items: center; justify-content: center; color: #64748b; font-size: 0.9rem;">UI / Oyun</div>
+                    <div class="work-info">
+                        <h3>UI & Oyun Denemeleri</h3>
+                        <p>Butonlar, kartlar ve küçük oyun prototipleri.</p>
+                    </div>
+                </article>
             </div>
         </section>
     </main>
 
-    <footer class="site-footer">
-        <p>&copy; 2026 Usame Altinisik. All rights reserved.</p>
-    </footer>
+    <div id="footer-root"></div>
 </body>
 
 </html>
-
