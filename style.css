@@ -810,3 +810,25 @@ body.has-footer {
     .hero-text h1 { font-size: 2.7rem; }
     .skills-flex { gap: 2rem; }
 }
+
+.footer-social {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: #555; /* Varsayılan gri renk */
+    transition: color 0.3s ease;
+}
+
+/* Üzerine gelince ikon renkleri değişsin */
+.social-link.yt:hover { color: #FF0000; } /* YouTube Kırmızısı */
+.social-link.gh:hover { color: #333; }    /* GitHub Siyahı */
+.social-link.in:hover { color: #0077B5; } /* LinkedIn Mavisi */
+.social-link.mail:hover { color: #EA4335; } /* Gmail Kırmızısı */
