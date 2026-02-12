@@ -147,10 +147,7 @@ body {
 
 /* ===== HERO SECTION ===== */
 .hero-section {
-    display: grid;
-    grid-template-columns: minmax(0, 2.2fr) minmax(0, 1.2fr);
-    gap: 1.4rem;
-    align-items: center;
+    text-align: center;
 }
 
 .hero-text h1 {
@@ -164,9 +161,23 @@ body {
 
 .hero-subtitle {
     color: #cbd5f5;
-    max-width: 32rem;
-    margin-bottom: 1.4rem;
+    max-width: 42rem;
+    margin: 0 auto;
     font-size: 0.98rem;
+    line-height: 1.6;
+}
+
+/* ===== HOME SUMMARY ===== */
+.home-summary {
+    font-size: 0.97rem;
+    line-height: 1.7;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+
+.home-summary p {
+    margin-bottom: 1rem;
+    color: #e2e8f0;
 }
 
 .hero-highlight {
@@ -508,8 +519,8 @@ input:focus, textarea:focus {
         display: flex;
     }
     
-    .hero-section {
-        grid-template-columns: 1fr;
+    .hero-text h1 {
+        font-size: 1.8rem;
     }
     
     .float-img {
