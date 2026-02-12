@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Portfolio - Usame Altinisik</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Hero / Header (Not inside main) -->
+    <header class="site-header">
+        <nav class="nav-bar glass-panel">
+            <div class="logo">UA<span>Portfolio</span></div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section class="hero glass-panel">
+            <div class="hero-content">
+                <h1>Hello, I'm <span>Usame Altinisik</span></h1>
+                <p class="hero-subtitle">
+                    Front-End Developer & Computer Science Student, passionate about crafting 
+                    clean, responsive, and modern web experiences.
+                </p>
+                <a href="#contact" class="btn-primary">Let’s Connect</a>
+            </div>
+        </section>
+    </header>
+
+    <!-- Main content: EXACTLY 5 sections -->
+    <main>
+        <!-- Section 1: About Me -->
+        <section id="about" class="section glass-panel">
+            <header class="section-header">
+                <h2>About Me</h2>
+                <p>Who I am & what I do</p>
+            </header>
+
+            <article class="about-content">
+                <img src="https://via.placeholder.com/260x260.png?text=Your+Photo" 
+                     alt="Profile picture of Usame Altinisik"
+                     class="profile-photo">
+                <p>
+                    I am a dedicated university student with a strong interest in front-end web development and 
+                    user experience design. I enjoy turning ideas into interactive, visually appealing interfaces 
+                    using modern HTML5 and CSS3 techniques.
+                </p>
+                <p>
+                    My focus is on writing clean, semantic code and creating responsive layouts that work 
+                    beautifully across devices. I love experimenting with design trends such as glassmorphism 
+                    and dark mode to build immersive digital experiences.
+                </p>
+                <p>
+                    Outside of coursework, I constantly explore new design inspirations, refine my skills, 
+                    and work on personal projects that challenge me to think both creatively and logically.
+                </p>
+            </article>
+
+            <aside class="about-aside">
+                <h3>Quick Facts</h3>
+                <ul>
+                    <li>Located in: Your City, Your Country</li>
+                    <li>Degree: B.Sc. in Computer Science (in progress)</li>
+                    <li>Interested in: Front-End Dev & UI/UX</li>
+                </ul>
+            </aside>
+        </section>
+
+        <!-- Section 2: Education (Table) -->
+        <section id="education" class="section glass-panel">
+            <header class="section-header">
+                <h2>Education</h2>
+                <p>My academic journey</p>
+            </header>
+
+            <div class="table-wrapper">
+                <table class="education-table">
+                    <thead>
+                        <tr>
+                            <th>Level</th>
+                            <th>Institution</th>
+                            <th>Location</th>
+                            <th>Years</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>University</td>
+                            <td>Your University Name</td>
+                            <td>Your City</td>
+                            <td>2022 – Present</td>
+                        </tr>
+                        <tr>
+                            <td>High School</td>
+                            <td>Your High School Name</td>
+                            <td>Your City</td>
+                            <td>2018 – 2022</td>
+                        </tr>
+                        <tr>
+                            <td>Middle School</td>
+                            <td>Your Middle School Name</td>
+                            <td>Your City</td>
+                            <td>2015 – 2018</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Section 3: Skills (Flexbox) -->
+        <section id="skills" class="section glass-panel">
+            <header class="section-header">
+                <h2>Skills</h2>
+                <p>What I work with</p>
+            </header>
+
+            <div class="skills-list">
+                <article class="skill-card">
+                    <h3>HTML5</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level level-90"></div>
+                    </div>
+                    <p>Semantic, accessible structure for modern websites.</p>
+                </article>
+
+                <article class="skill-card">
+                    <h3>CSS3</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level level-85"></div>
+                    </div>
+                    <p>Responsive layouts, animations, and modern UI design.</p>
+                </article>
+
+                <article class="skill-card">
+                    <h3>Responsive Design</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level level-80"></div>
+                    </div>
+                    <p>Mobile-first, flexible designs that adapt to all screens.</p>
+                </article>
+
+                <article class="skill-card">
+                    <h3>UI / UX Basics</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level level-70"></div>
+                    </div>
+                    <p>User-centered thinking to create intuitive interfaces.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Section 4: Hobbies (CSS Grid) -->
+        <section id="hobbies" class="section glass-panel">
+            <header class="section-header">
+                <h2>Hobbies</h2>
+                <p>What I enjoy in my free time</p>
+            </header>
+
+            <div class="hobby-grid">
+                <article class="hobby-card">
+                    <h3>Coding Projects</h3>
+                    <p>
+                        Building small web apps and experimenting with new layout and design ideas.
+                    </p>
+                </article>
+                <article class="hobby-card">
+                    <h3>Gaming</h3>
+                    <p>
+                        Enjoying strategy and story-driven games that inspire creativity and problem-solving.
+                    </p>
+                </article>
+                <article class="hobby-card">
+                    <h3>Photography</h3>
+                    <p>
+                        Capturing cityscapes and daily life, then editing them with a cinematic style.
+                    </p>
+                </article>
+                <article class="hobby-card">
+                    <h3>Reading</h3>
+                    <p>
+                        Exploring books on technology, design, and personal development.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Section 5: Contact (Form) -->
+        <section id="contact" class="section glass-panel">
+            <header class="section-header">
+                <h2>Contact</h2>
+                <p>Let’s get in touch</p>
+            </header>
+
+            <article class="contact-content">
+                <p>
+                    Whether you want to discuss a potential project, ask a question, or just say hello, 
+                    feel free to send me a message using the form below.
+                </p>
+
+                <form class="contact-form" action="#" method="post">
+                    <div class="form-row">
+                        <label for="name">Name</label>
+                        <input id="name" name="name" type="text" placeholder="Your full name" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" placeholder="your.email@example.com" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Write your message here..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+            </article>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; <span id="year">2026</span> Usame Altinisik. All rights reserved.</p>
+    </footer>
+</body>
+</html>
