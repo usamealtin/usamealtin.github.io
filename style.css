@@ -813,22 +813,23 @@ body.has-footer {
 
 .footer-social {
     display: flex;
-    gap: 20px;
+    gap: 25px;
     justify-content: center;
-    padding: 20px;
+    align-items: center;
 }
 
 .social-link {
     display: flex;
+    flex-direction: column; /* İkon üstte yazı altta olsun istersen */
     align-items: center;
-    gap: 8px;
+    gap: 5px;
     text-decoration: none;
-    color: #555; /* Varsayılan gri renk */
-    transition: color 0.3s ease;
+    font-size: 14px;
+    color: #333;
+    transition: transform 0.2s ease;
 }
 
-/* Üzerine gelince ikon renkleri değişsin */
-.social-link.yt:hover { color: #FF0000; } /* YouTube Kırmızısı */
-.social-link.gh:hover { color: #333; }    /* GitHub Siyahı */
-.social-link.in:hover { color: #0077B5; } /* LinkedIn Mavisi */
-.social-link.mail:hover { color: #EA4335; } /* Gmail Kırmızısı */
+/* Üzerine gelince ikon hafif büyüsün */
+.social-link:hover {
+    transform: scale(1.1);
+}
