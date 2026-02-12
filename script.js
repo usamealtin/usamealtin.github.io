@@ -105,8 +105,19 @@ function initContactForm() {
         const body = encodeURIComponent(`${message}\n\nFrom: ${name} <${email}>`);
 
         // Buraya kendi e-posta adresini yazabilirsin
-        window.location.href = `mailto:altinusame@gmail.com?subject=${subject}&body=${body}`;
+        window.location.href = `mailto:example@example.com?subject=${subject}&body=${body}`;
     });
+}
+
+function loadFooter() {
+    const footerRoot = document.getElementById('footer-root');
+    if (footerRoot) {
+        document.body.classList.add('has-footer');
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(html => { footerRoot.innerHTML = html; })
+            .catch(() => {});
+    }
 }
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -121,6 +132,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 initTheme();
                 initExpandableCards();
                 initContactForm();
+                loadFooter();
             })
             .catch(err => {
                 console.error('Navbar yüklenemedi:', err);
@@ -128,13 +140,14 @@ document.addEventListener('DOMContentLoaded', function () {
                 initTheme();
                 initExpandableCards();
                 initContactForm();
+                loadFooter();
             });
     } else {
-        // Sayfada statik header varsa (ileride kullanmak istersen)
         initNavbarToggle();
         initTheme();
         initExpandableCards();
         initContactForm();
+        loadFooter();
     }
 });
 
