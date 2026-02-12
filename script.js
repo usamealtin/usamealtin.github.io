@@ -105,7 +105,7 @@ function initContactForm() {
         const body = encodeURIComponent(`${message}\n\nFrom: ${name} <${email}>`);
 
         // Buraya kendi e-posta adresini yazabilirsin
-        window.location.href = `mailto:example@example.com?subject=${subject}&body=${body}`;
+        window.location.href = `mailto:altinusame@gmail.com?subject=${subject}&body=${body}`;
     });
 }
 
