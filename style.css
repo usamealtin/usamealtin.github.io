@@ -833,3 +833,12 @@ body.has-footer {
 .social-link:hover {
     transform: scale(1.1);
 }
+
+.star {
+    color: rgba(255, 255, 255, 0.2); /* Boş yıldız */
+    text-shadow: none;
+}
+.star.filled {
+    color: #fff; /* Dolu yıldız beyaz */
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.8)); /* Parlama efekti */
+}
