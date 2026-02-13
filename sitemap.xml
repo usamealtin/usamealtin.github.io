@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://usamealtinisik.github.io/index.html</loc>
+    <loc>https://usamealtin.github.io/index.html</loc>
     <lastmod>2026-02-13</lastmod>
     <priority>1.00</priority>
   </url>
 
   <url>
-    <loc>https://usamealtinisik.github.io/profile.html</loc>
+    <loc>https://usamealtin.github.io/profile.html</loc>
     <lastmod>2026-02-13</lastmod>
     <priority>0.80</priority>
   </url>
 
   <url>
-    <loc>https://usamealtinisik.github.io/works.html</loc>
+    <loc>https://usamealtin.github.io/works.html</loc>
     <lastmod>2026-02-13</lastmod>
     <priority>0.90</priority>
   </url>
 
   <url>
-    <loc>https://usamealtinisik.github.io/journal.html</loc>
+    <loc>https://usamealtin.github.io/journal.html</loc>
     <lastmod>2026-02-13</lastmod>
     <priority>0.70</priority>
   </url>
 
   <url>
-    <loc>https://usamealtinisik.github.io/shelf.html</loc>
+    <loc>https://usamealtin.github.io/shelf.html</loc>
     <lastmod>2026-02-13</lastmod>
     <priority>0.70</priority>
   </url>
 </urlset>
+
